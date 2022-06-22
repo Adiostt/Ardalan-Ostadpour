@@ -627,9 +627,29 @@ a.nav {
     max-width: 250px;
 }
 
-.price-plan-body-1-h4 {
+.price-plan-body-1-h4 h4 {
     font-size: 25px;
     font-weight: 600;
+    margin: 0;
+    color: #293651;
+}
+
+.price-plan-body-span {
+    font-size: 35px;
+    margin: 0;
+    color: #00A78E;
+    font-weight: 600;
+}
+
+.price-plan-body-description-1 p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.price-plan-body-hr-1 {
+    margin: 18px 0;
+    border-top: 1px solid #293651;
 }
 
 
