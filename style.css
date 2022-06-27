@@ -701,6 +701,22 @@ a.nav {
 }
 
 
+/* -------------------------comment----------------------- */
+
+.comments {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.comment-title {
+    color: #00A78E;
+}
+
+.comment-subtitle {
+    color: #293651;
+}
+
+
 /* --------------------- footer -------------------*/
 
 footer {
