@@ -489,6 +489,7 @@ a.nav {
     padding: 20px 30px;
     background-color: #00A78E;
     border-radius: 32px 32px 0px 32px;
+    transition: all 0.36s ease-out;
 }
 
 .servises-content-description-p {
@@ -536,7 +537,8 @@ a.nav {
     transition: all 0.36s ease-out;
 }
 
-.servises-animate {
+
+/* .servises-animate {
     transition-duration: 1.17s;
 }
 
@@ -562,7 +564,7 @@ a.nav {
 
 .servises-animate6 {
     animation-delay: 1.7s;
-}
+} */
 
 
 /* -----------------------porfolio----------------------- */
@@ -582,12 +584,12 @@ a.nav {
     color: #293651;
     padding: 7px;
     border-radius: 6px;
-    transition: all .2s ease-out;
+    transition: all 0.36s ease-out;
 }
 
 .portfolio-header-button-a:hover {
     background-color: #a1a9b9;
-    transition: all .2s ease-out;
+    transition: all 0.36s ease-out;
     color: #ffff;
     border: 2px solid transparent;
 }
@@ -675,13 +677,13 @@ a.nav {
     border: #646F87 solid 2px;
     padding: 8px;
     border-radius: 30px;
-    transition: all .2s ease-out;
+    transition: all 0.36s ease-out;
 }
 
 .more-details a:hover {
     border: 2px solid transparent;
     background-color: #a1a9b9;
-    transition: all .2s ease-out;
+    transition: all 0.36s ease-out;
     color: #ffff;
 }
 
