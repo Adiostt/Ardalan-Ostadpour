@@ -733,6 +733,73 @@
         .comments-carusel {
             margin-top: 100px;
         }
+        /* -------------------------history---------------------- */
+        
+        .history {
+            margin-top: 100px;
+        }
+        
+        .history-header {
+            text-align: center;
+        }
+        
+        .history-title {
+            color: #00A78E;
+        }
+        
+        .history-subtitle {
+            color: #293651;
+        }
+        
+        .history-main-1row-header,
+        .history-main-1row-description {
+            width: 47%;
+            text-align: justify;
+        }
+        
+        .history-main-1row-number {
+            color: #00A78E;
+            margin: auto 30px;
+            width: 5%;
+            text-align: center;
+            align-items: center;
+            border-radius: 50%;
+            border: #00A78E solid 2.7px;
+        }
+        
+        .history-main-1row {
+            display: flex;
+            margin-top: 50px;
+            align-items: center;
+        }
+        
+        .history-main-1row-title h3 {
+            font-size: 25px;
+            color: #293651;
+        }
+        
+        .history-main-1row-subtitle p {
+            margin: 10px 0 0 0;
+            color: #00A78E;
+        }
+        
+        .history-main-1row-description p {
+            margin: 0;
+            padding: 30px;
+            box-shadow: 0 0px 20px 0 rgba(161, 161, 161, 0.2);
+            border-radius: 10px;
+        }
+        
+        .history-main-2row {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: 50px;
+            align-items: center;
+        }
+        
+        .history-main-2row .history-main-1row-header {
+            text-align: end;
+        }
         /* --------------------- footer -------------------*/
         
         footer {
