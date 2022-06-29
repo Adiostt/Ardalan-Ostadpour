@@ -758,6 +758,7 @@
         }
         
         .history-main-1row-number {
+            background-color: #ffff;
             color: #00A78E;
             margin: auto 30px;
             width: 5%;
@@ -765,6 +766,7 @@
             align-items: center;
             border-radius: 50%;
             border: #00A78E solid 2.7px;
+            z-index: 1;
         }
         
         .history-main-1row {
@@ -799,6 +801,21 @@
         
         .history-main-2row .history-main-1row-header {
             text-align: end;
+        }
+        
+        .inner-container {
+            position: relative;
+        }
+        
+        .inner-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 2px;
+            left: 50%;
+            height: 805px;
+            background-color: #00A78E;
+            z-index: -1;
         }
         /* --------------------- footer -------------------*/
         
