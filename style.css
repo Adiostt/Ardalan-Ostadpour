@@ -767,9 +767,12 @@
             border-radius: 50%;
             border: #00A78E solid 2.7px;
             z-index: 1;
+            transition: all 0.2s ease-out;
         }
         
-        .history-main-1row {
+        .history-main-1row,
+        .history-main-3row {
+            transition: all 0.2s ease-out;
             display: flex;
             margin-top: 50px;
             align-items: center;
@@ -793,6 +796,7 @@
         }
         
         .history-main-2row {
+            transition: all 0.2s ease-out;
             display: flex;
             flex-direction: row-reverse;
             margin-top: 50px;
@@ -816,6 +820,49 @@
             height: 805px;
             background-color: #00A78E;
             z-index: -1;
+        }
+        
+        .history-main-1row-description {
+            transition: all 0.2s ease-out;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 25px 8px #00000007;
+        }
+        
+        .history-main-1row:hover .history-main-1row-description {
+            color: #ffff;
+            background-color: #00A78E;
+            transition: all 0.2s ease-out;
+        }
+        
+        .history-main-2row:hover .history-main-1row-description {
+            color: #ffff;
+            background-color: #00A78E;
+            transition: all 0.2s ease-out;
+        }
+        
+        .history-main-3row:hover .history-main-1row-description {
+            color: #ffff;
+            background-color: #00A78E;
+            transition: all 0.2s ease-out;
+        }
+        
+        .history-main-1row:hover .history-main-1row-number {
+            background-color: #00A78E;
+            color: #ffff;
+            transition: all 0.2s ease-out;
+        }
+        
+        .history-main-2row:hover .history-main-1row-number {
+            background-color: #00A78E;
+            color: #ffff;
+            transition: all 0.2s ease-out;
+        }
+        
+        .history-main-3row:hover .history-main-1row-number {
+            background-color: #00A78E;
+            color: #ffff;
+            transition: all 0.2s ease-out;
         }
         /* --------------------- footer -------------------*/
         
