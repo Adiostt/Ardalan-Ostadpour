@@ -876,3 +876,27 @@
                 display: none;
             }
         }
+        
+        @media (max-width: 991px) {
+            .img-content>div {
+                width: 100%;
+            }
+            .hero-image img {
+                max-width: 50%;
+            }
+            .hero-section-background::before {
+                background-color: #ffff;
+            }
+        }
+        
+        @media (max-width:767px) {
+            .servises-content-box-wraper {
+                width: 50%;
+            }
+        }
+        
+        @media (max-width:549px) {
+            .servises-content-box-wraper {
+                width: 100%;
+            }
+        }
